@@ -1,0 +1,68 @@
+@media screen and (max-width: 576px) {
+    body {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .header__container,
+    .header__right,
+    .nav__list {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .header__content {
+        padding-top: 120px;
+    }
+
+    .header__title {
+        font-size: 4em;
+        line-height: 79px;
+    }
+
+    .about__col,
+    .portfolio-item__col {
+        width: 100%;
+        flex: 0 0 80%;
+    }
+
+    .about__title {
+        font-size: 2em;
+    }
+
+    .order-img {
+        order: -1;
+    }
+
+    .quote__content {
+        font-size: 0.6em;
+    }
+
+    .services-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1199px) {
+    .container {
+        margin: 0 60px;
+    }
+}
